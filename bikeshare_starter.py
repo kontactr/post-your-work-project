@@ -1,10 +1,16 @@
 import time
 import pandas as pd
 import numpy as np
+from datetime import datetime
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+
+def log(message):
+    """Print message with timestamp."""
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    print(f'[{timestamp}] {message}')
 
 def get_filters():
     """
