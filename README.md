@@ -9,12 +9,43 @@ and user information.
 
 ## Information about how to use your project
 
-This could include:
+### Dependencies
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+- Python 3.x
+- [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+
+Install the dependencies:
+
+```bash
+pip install pandas numpy
+
+### Data files
+
+The following data files must be present in the project directory
+(they are not tracked in git):
+
+- `chicago.csv`
+- `new_york_city.csv`
+- `washington.csv`
+
+### Running the project
+
+```bash
+python bikeshare_starter.py
+```
+
+Follow the prompts to choose a city, month, and day. Enter `all` to apply no
+month/day filter. When asked to restart, enter `yes` to run again or anything
+else to quit.
+
+### Common issues and troubleshooting
+
+- **`FileNotFoundError`** — make sure the `.csv` data files are in the same
+  directory as the script.
+- **Missing `Gender` / `Birth Year` stats** — the Washington dataset does not
+  include these columns, so those statistics are skipped for that city.
+
 
 ## Contribution guidelines
 
