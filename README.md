@@ -1,9 +1,11 @@
->**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
+# Explore US Bikeshare Data
 
-
-# Project Title
-
-Describe what your project is about and what it does
+This project is an interactive Python command-line application that explores
+bikeshare usage data from three major US cities — **Chicago, New York City,
+and Washington**. It lets the user filter the data by **city, month, and day
+of week**, then computes and displays descriptive statistics on the trips,
+including popular travel times, popular stations and trips, trip duration,
+and user information.
 
 ## Information about how to use your project
 
